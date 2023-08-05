@@ -1,4 +1,3 @@
-
 # -*- coding: utf-8 -*-
 
 ################################################################################
@@ -81,3 +80,4 @@ class Ui_MainWindow(object):
         self.deleteButton.setText(QCoreApplication.translate("MainWindow", u"delete", None))
         self.updateButton.setText(QCoreApplication.translate("MainWindow", u"update", None))
     # retranslateUi
+
