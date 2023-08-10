@@ -10,8 +10,8 @@ class AssetAPI:
     __entity = None
 
     def __init__(self):
-        gazu.client.set_host("http://192.168.3.117/api")
-        gazu.log_in("admin@netflixacademy.com", "netflixacademy")
+        gazu.client.set_host("http://xxx/xxx")
+        gazu.log_in("xxx.com", "xxx")
 
     @property
     def project(self):
