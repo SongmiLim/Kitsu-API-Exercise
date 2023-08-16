@@ -10,7 +10,7 @@
 ## 요구 사항
 
 - Python 3.x 버전 이상
-- 필요한 라이브러리: `requests`, 'gazu', 'pyside2'
+- 필요한 라이브러리: `requests`, `gazu`,  `pyside2`
 
 
 ## 코드 실행:
@@ -22,7 +22,7 @@ python asset_crud.py
 
 asset_crud.py 파일 내에서 아래 부분을 수정하여 Kitsu API 및 Gazu API 인증 정보를 입력하세요.
 
-KITSU_API_BASE_URL = "https://api.kitsu.io"
+KITSU_API_BASE_URL = "https://api.kitsu.io"\n
 GAZU_API_BASE_URL = "https://api.gazu.example.com"
 API_KEY = "your_api_key"
 
